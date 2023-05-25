@@ -1,0 +1,58 @@
+{
+  "actions": [
+    {
+      "config": {
+        "timeout": "1000",
+        "sendAllBids": "true"
+      },
+      "prob_to_win": 0.1079,
+      "prob_to_win_baseline": "baseline",
+      "num_trials": 16126
+    },
+    {
+      "config": {
+        "timeout": "1000",
+        "sendAllBids": "false"
+      },
+      "prob_to_win": 0.02815,
+      "prob_to_win_baseline": 0.30445,
+      "num_trials": 16122
+    },
+    {
+      "config": {
+        "timeout": "2000",
+        "sendAllBids": "true"
+      },
+      "prob_to_win": 0.0648,
+      "prob_to_win_baseline": 0.42685,
+      "num_trials": 16109
+    },
+    {
+      "config": {
+        "timeout": "2000",
+        "sendAllBids": "false"
+      },
+      "prob_to_win": 0.39315,
+      "prob_to_win_baseline": 0.73875,
+      "num_trials": 15982
+    },
+    {
+      "config": {
+        "timeout": "3000",
+        "sendAllBids": "true"
+      },
+      "prob_to_win": 0.3249,
+      "prob_to_win_baseline": 0.7039,
+      "num_trials": 16210
+    },
+    {
+      "config": {
+        "timeout": "3000",
+        "sendAllBids": "false"
+      },
+      "prob_to_win": 0.0811,
+      "prob_to_win_baseline": 0.4461,
+      "num_trials": 16028
+    }
+  ]
+}
